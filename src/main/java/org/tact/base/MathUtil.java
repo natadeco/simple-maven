@@ -11,7 +11,11 @@ public class MathUtil {
 	}
 	
 	public static int mult(int a, int b) {	
-		return a*b;		
+		return a*b;	
+	}	
+	
+	public static int division(int a, int b) {	
+		return a/b;	
 	}
 	
 }

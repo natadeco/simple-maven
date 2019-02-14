@@ -13,6 +13,9 @@ public class App {
 		
 		int e = MathUtil.mult(8, 9);
 		System.out.println(e);
+	    
+		int f = MathUtil.mult(8, 9);
+		System.out.println(f);
 	}
 	
 	
