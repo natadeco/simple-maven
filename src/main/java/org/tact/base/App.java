@@ -1,5 +1,7 @@
 package org.tact.base;
 
+import org.apache.commons.math3.fraction.Fraction;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -16,6 +18,12 @@ public class App {
 	    
 		int f = MathUtil.mult(8, 9);
 		System.out.println(f);
+		
+		Fraction obj = new Fraction(10);
+		Fraction obj1 = new Fraction(26);
+		Fraction sum = obj.add(obj1);		
+		
+		System.out.println(sum);
 	}
 	
 	
