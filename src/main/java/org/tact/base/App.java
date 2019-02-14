@@ -10,6 +10,9 @@ public class App {
 		
 		int d = MathUtil.subtract(8, 9);
 		System.out.println(d);
+		
+		int e = MathUtil.mult(8, 9);
+		System.out.println(e);
 	}
 	
 	
